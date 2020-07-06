@@ -1,0 +1,26 @@
+.box{
+    width: 400px;
+    height: 200px;
+    border: 2px solid peru;
+    overflow: scroll;
+}
+.box2{
+    border: 2px solid purple;
+    width: 400px;
+    height:200px;
+   
+
+}
+.images .logo{
+    height: 100px;
+    width: 100px;
+
+}
+.logo2{
+    height: 100px;
+    width: 100px;
+}
+.tutu{
+    height: 100px;
+    width: 100px;
+}

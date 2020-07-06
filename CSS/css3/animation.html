@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+             @keyframes slidein {
+                0%{
+                    left:0px;
+                    top: 0px;
+                    background-color: aquamarine;
+                 }
+                 50%{
+                     left:450px;
+                     top: 150px;
+                     background-color: blue;
+                 }
+                 100%{
+                    left:918px;
+                    top: 0px;
+                    background-color: blueviolet;
+                 }
+
+                 
+             }
+        .stage{
+            background-color: turquoise;
+            height: 200px;
+            min-width: 800px;
+         
+        }
+        .ball{
+            color: white;
+            width: 50px;
+            height:50px;
+            
+            background-color: crimson;
+            position: absolute;
+            border-radius: 50%;
+        }
+        .stage:hover .ball{
+            animation: slidein 6s ease-in-out infinite 1s alternate;
+            
+    </style>
+</head>
+<body>
+    <div class="stage">
+        <div class="ball" >
+        <p>ADIBA</p>
+        </div>
+    </div>
+</body>
+</html>
